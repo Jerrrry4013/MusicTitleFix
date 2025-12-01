@@ -21,11 +21,6 @@ $RightQuote = [char]8221
 $Ch_LeftParen  = [char]65288 
 $Ch_RightParen = [char]65289 
 
-# Target Strings
-$Str_Welcome = [string][char[]](27426,36814,26469,21040,21518,22812,31085)
-$Str_SorryCute = [string][char[]](21487,29233,24471,25265,27465)
-$Str_Idol = [string][char[]](20768,20687)
-
 foreach ($file in $files) {
     $name = $file.BaseName
     $ext = $file.Extension
